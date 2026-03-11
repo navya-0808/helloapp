@@ -1,0 +1,17 @@
+public class uc3_HelloApp{
+
+    public static void main(String[] args) {
+
+        String name;
+
+        // Check if user provided a command-line argument
+        if (args.length > 0) {
+            name = args[0];
+        } else {
+            name = "World";   // default value
+        }
+
+        // Display greeting
+        System.out.println("Hello " + name);
+    }
+}
